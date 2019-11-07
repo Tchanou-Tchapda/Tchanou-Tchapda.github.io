@@ -7,12 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
 
+
+body {
+  display: grid;
+            grid-template-columns: 1fr 2fr;
+}
         h1 {
             font-family: arial;
             font-size: 48px; 
             color: green ;
-            font-style: italic ;}
+            font-style: italic ;
+            }
 
+            
+footer{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: darkcyan;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:crimson;
+}
+
+aside {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+main{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
         h2 {
            font-family: Arial;
            font-size: 32px ;
@@ -59,24 +90,41 @@
             color: blue;
             }
 
+
       </style>
     <title>Junior Web Design</title>
   </head>
 
   <body>
-
-    <nav>
+<header>
+  <nav>
         <a href="">Go to home page</a>
     </nav>
-    <header>
+  <h1>Junior Web Design</h1>
+</header>
+
+  <main>
+    <p class="intro">I am versed in all aspects of environmental impact assessment and collected data for my master’s thesis on the impact of anthropic activities on the carbon sequestration ability of mangrove ecosystem in Cameroon. I am presently finalizing a manuscript which I hope to publish by the end of next year in an international peer reviewed journal. My training at HIES has equipped me with excellent skills in statistics with the software R, floristic monitoring in several reserves and laboratory analysis carried out in the Laboratory of Soils, Plants, Water and Fertilizers accredited ISO 17025 at IRAD.</p>
+    <img src="pic1.JPG" width="300px" length="300px" style="margin-left: 0;"/>   
+  </main>
+
+  <aside>
+    <img src="pic.JPG" width="300px" length="300px"/>
+    <h2>Global Knowledge</h2>
+    <p>-	Excellent communication skills in English and French
+        -	Excellent computer skills: Microsoft Word, Excel, Powerpoint, Outlook
+        -	Excellent modeling skills with open-source GIS tools (QGIS 2.8.1, ILWIS)
+        -	Excellent skills in focus group organization, interviews and workshops.
+        </p>
+  </aside>
+
+  <footer>
+    <p>This is my footer</p>
+  </footer>
+  </body>
+  </html>
       
-      <h1>Junior Web Design</h1>
-      <img src="pic.JPG" width="300px" length="300px"/>
-<<<<<<< HEAD
-      <img src="pic1.JPG" width="300px" length="300px" style="margin-left: 670px;"/>
-=======
-      <img src="pic1.JPG" width="300px" length="300px" style="margin-left:670px;"/>
->>>>>>> 5e61d9b261898050846e47c7841777888e1820a2
-      <p class="intro">I am versed in all aspects of environmental impact assessment and collected data for my master’s thesis on the impact of anthropic activities on the carbon sequestration ability of mangrove ecosystem in Cameroon. I am presently finalizing a manuscript which I hope to publish by the end of next year in an international peer reviewed journal. My training at HIES has equipped me with excellent skills in statistics with the software R, floristic monitoring in several reserves and laboratory analysis carried out in the Laboratory of Soils, Plants, Water and Fertilizers accredited ISO 17025 at IRAD.</p>
+      
+ 
       
    
